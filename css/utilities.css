@@ -1,0 +1,37 @@
+.container{
+    width: 1040px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 8px 25px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.primary {
+    background: var(--pure);
+    color: var(--dark);
+}
+
+.primary:hover {
+    background: transparent;
+    color: var(--pure);
+    border-color: var(--pure);
+}
+
+.secondary {
+    background: var(--dark);
+    color: var(--pure);
+    border-color: var(--pure);
+}
+
+.secondary:hover {
+    background: var(--pure);
+    color: var(--dark);
+    border-color: var(--dark);
+}
